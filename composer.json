@@ -1,0 +1,25 @@
+{
+    "name": "alioxx/Wells-Fargo-Championship-live",
+    "description": "Wells Fargo Championship live",
+    "homepage": "https://github.com/alioxx/alioxx",
+	"keywords": ["Wells Fargo Championship live"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Here :",
+            "homepage": "http://bit.ly/2LdxHPn",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "movies123\\": "src/"
+        }
+    },
+    "require": {
+        "symfony/dom-crawler": "^3.3",
+        "symfony/css-selector": "^3.3"
+    },
+    "minimum-stability": "dev"
+}
